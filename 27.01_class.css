@@ -1,0 +1,39 @@
+.card img { width: 300px;
+    
+
+}
+.container{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+h1,h3,p{
+    text-align: center;
+    color: coral;
+}
+.card{
+
+display: flex;
+flex-direction: column;
+}
+.card:hover{
+    border-radius: 10px;
+    outline: 1px solid coral;
+}
+button{
+    margin: 0 auto;;
+    padding: 10px 15px;
+    color: rgb(174, 60, 19);
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    color: aliceblue;
+    background-color: rgb(244, 200, 183);
+}
